@@ -1,0 +1,74 @@
+version: "3.1"
+
+stories:
+
+- story: chao-ten-chucnang-tambiet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_name
+  - action: utter_ask_name
+  - intent: ask_func_list
+  - action: utter_func_list
+  - intent: bye
+  - action: utter_bye
+
+- story: chao-chucnang-tambiet
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_func_list
+    - action: utter_func_list
+    - intent: bye
+    - action: utter_bye
+
+- story: chao-ten-tambiet
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_name
+    - action: utter_ask_name
+    - intent: bye
+    - action: utter_bye
+
+- story: chao-ten-chucnang
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_name
+    - action: utter_ask_name
+    - intent: ask_func_list
+    - action: utter_func_list
+
+- story: ten-chucnang
+  steps:
+    - intent: ask_name
+    - action: utter_ask_name
+    - intent: ask_func_list
+    - action: utter_func_list
+
+- story: camon
+  steps:
+    - intent: thank
+    - action: utter_thank
+
+- story: xoso
+  steps:
+    - intent: ask_lottery
+    - action : action_get_lottery
+
+- story: chao-chucnang-xoso
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_func_list
+    - action: utter_func_list
+    - intent: ask_lottery
+    - action : action_get_lottery
+
+- story: chao-xoso
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lottery
+    - action : action_get_lottery
