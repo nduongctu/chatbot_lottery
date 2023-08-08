@@ -1,1 +1,1 @@
-# chatbot_lottery
+Chatbot lottery by RASA chatbot
