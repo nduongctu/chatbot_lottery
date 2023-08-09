@@ -72,3 +72,39 @@ stories:
     - action: utter_greet
     - intent: ask_lottery
     - action : action_get_lottery
+
+- story: chao-xosomienbac
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lottery_bac
+    - action : action_get_lottery_bac
+
+- story: chao-xosomientrung
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lottery_trung
+    - action : action_get_lottery_trung
+
+- story: chao-xosomiennam
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lottery_nam
+    - action : action_get_lottery_nam
+
+- story: xosomienbac
+  steps:
+    - intent: ask_lottery_bac
+    - action : action_get_lottery_bac
+
+- story: xosomientrung
+  steps:
+    - intent: ask_lottery_trung
+    - action : action_get_lottery_trung
+
+- story: xosomiennam
+  steps:
+    - intent: ask_lottery_nam
+    - action : action_get_lottery_nam

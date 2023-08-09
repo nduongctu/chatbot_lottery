@@ -54,6 +54,7 @@ nlu:
     - cảm ơn em nhiều nhá
     - cảm ơn em nhiều nhé
     - cảm ơn nhá
+    - giỏi lắm
 
 - intent : ask_func_list
   examples: |
@@ -131,3 +132,38 @@ nlu:
     - có kết quả chưa
     - xổ số 
     - xổ số hôm nay
+
+- intent : ask_lottery_bac
+  examples: | 
+    - kết quả bắc
+    - kết quả xổ số hà nội
+    - xổ số hà nội
+    - xổ số miền bắc
+    - miền bắc
+    - hà nội
+    - xổ số miền bắc hôm nay
+    - xổ số hà nội hôm nay
+    - hà nội hôm nay
+
+- intent : ask_lottery_trung
+  examples: | 
+    - kết quả trung
+    - kết quả xổ số miền trung
+    - xổ số miền trung
+    - miền trung
+    - xổ số miền trung hôm nay
+    - miền trung hôm nay
+    - các tỉnh miền trung hôm nay
+    - các tỉnh miền trung 
+
+
+- intent : ask_lottery_nam
+  examples: | 
+    - kết quả nam
+    - kết quả xổ số miền nam
+    - xổ số miền nam
+    - miền nam
+    - xổ số miền nam hôm nay
+    - miền nam hôm nay
+    - các tỉnh miền nam
+    - các tỉnh miền nam hôm nay

@@ -7,6 +7,10 @@ intents:
   - ask_func_list
   - ask_name
   - ask_lottery
+  - ask_lottery_bac
+  - ask_lottery_trung
+  - ask_lottery_nam
+
 responses:
   utter_greet:
     - text: "Kính chào Quý khách!"
@@ -17,10 +21,9 @@ responses:
     - text: "Cảm ơn quý khách quá khen ah!"
     - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
   utter_func_list:
-    - text: "Em có thể làm được rất nhiều thứ: hát, đọc thơ, đọc chuyện...nhưng giờ em chỉ chat thôi!"
+    - text: "Em có thể làm được rất nhiều thứ: hát, đọc thơ, đọc chuyện...nhưng giờ em chỉ có thể kiểm tra kết quả xổ số thôi!"
   utter_ask_name:
-    - text: "Em họ Bank, tên Bot! Người ta hay gọi em là Bank Bot thông minh xinh đẹp giỏi giang nhất vũ trụ ạ! Quý khách cần trợ giúp gì ạ?"
-    - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo Ngân hàng nhưng em thích gọi bằng tên Tiếng Anh là Bank Bot cho nó Tây!"
+    - text: "Người ta hay gọi em là Lottery Bot thông minh xinh đẹp giỏi giang nhất vũ trụ ạ! Quý khách cần trợ giúp gì ạ?"
   utter_unclear:
     - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. "
 
@@ -34,3 +37,6 @@ actions:
  - utter_thank
  - utter_ask_name
  - action_get_lottery
+ - action_get_lottery_bac
+ - action_get_lottery_trung
+ - action_get_lottery_nam
